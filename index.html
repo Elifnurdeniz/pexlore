@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Pexlore</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+
+    <!-- This is For Header  -->
+    <header>
+        <div>
+            <img class="pexlore-img" src="images/1.png" width="172px" height="80px">
+        </div>
+
+       <nav class="options">
+            <ul>
+                <li class="lang" id="language" onclick="changeLang()">ENG</li><br><br>
+            </ul>
+           <ul>
+               <li>Our Solution</li>
+               <li>About Us</li>
+               <li>Testimonials</li>
+               <li>Contact Us</li>
+               <li>Support</li>
+               <li>Login</li>
+               
+            </ul>
+        
+       </nav>
+        <hr>
+       
+
+    </header>
+
+    <!-- This is a section  -->
+    <section class="section">
+        <div>
+            <img class="img" src="images/2.png" alt="" >
+        </div>
+
+        <div>
+            <h2>Track your products in online marketplaces</h2>
+            <p>Be aware of your products’ conditions and take actions regarding to it</p>
+       </div>
+ </section>
+
+
+    <script>
+        function changeLang() {
+            if(document.getElementById("language").innerHTML == "ENG") {
+                document.getElementById("language").innerHTML = "TR";
+            }
+            else{
+                document.getElementById("language").innerHTML = "ENG";
+            }
+        }
+    </script>
+
+</body>
+
+
+</html> 

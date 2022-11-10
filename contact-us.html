@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style2.css">
+    <!-- Fonrt Awesome  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- Google Font  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+
+<!-- This is For Header  -->
+<header>
+    <div class="headd">
+        <img class="pexlore-img" src="images/1.png" width="172px" height="80px">
+    </div>
+
+    <div class="head">
+    <nav class="options">
+        <ul>
+            <li class="lang" id="language" onclick="changeLang()">ENG</li><br><br>
+        </ul>
+        <ul>
+            <li>Our Solution</li>
+            <li>About Us</li>
+            <li>Testimonials</li>
+            <li class="contact">Contact Us</li>
+            <li>Support</li>
+            <li>Login</li>
+
+        </ul>
+
+    </nav>
+    <hr>
+    </div>
+
+</header>
+
+<section class="parts">
+    <div class="items">
+        <div class="item">
+            <label for="fname">First name</label><br><br>
+            <input type="text" id="fname" name="fname"><br><br>
+        </div>
+        <div class="item">
+            <label for="phone">Phone</label><br><br>
+            <input type="text" id="phone" name="phone"><br><br>
+        </div>
+        <div class="item">
+            <label for="company">Company</label><br><br>
+            <input type="text" id="company" name="company"><br><br>
+        </div>
+    </div>
+    <div class="items">
+        <div class="item">
+            <label for="surname">Surname</label><br><br>
+            <input type="text" id="surname" name="surname"><br><br>
+        </div>
+        <div class="item">
+            <label for="email">Email</label><br><br>
+            <input type="text" id="email" name="email"><br><br>
+        </div>
+        <div class="item">
+            <label for="industry">Industry</label><br><br>
+            <input type="text" id="industry" name="industry"><br><br>
+        </div>
+    </div>
+    <div class="last-items">
+
+        <div class="last">
+            <p class="last-contact">Contact Us</p>
+            <p>XXXXXXXXXXXXX</p>
+            <p>XXXXX</p>
+            <p>XXXXXXXXXX</p>
+            <p>Xxxxxxxx</p>
+        </div>
+        <div class="last">
+            <p>0212 987 36485963</p>
+        </div>
+        <div class="last">
+            
+            <a href="mailto:info@feykproduct.com">info@xx.com</a>
+
+        </div>
+    </div>
+</section>
+
+
+<script>
+    function changeLang() {
+        if(document.getElementById("language").innerHTML == "ENG") {
+            document.getElementById("language").innerHTML = "TR";
+        }
+        else{
+            document.getElementById("language").innerHTML = "ENG";
+        }
+    }
+</script>
+
+</body>
+
+
+</html>
