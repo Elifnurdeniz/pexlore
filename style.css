@@ -4,11 +4,16 @@
     background-color: #e2e2e2;
 }
 
-header{
-    margin-top: 0;
+.headd{
+    justify-content: space-between;
+}
+header{  
+    margin-top: 3rem;
     padding: 10px 0;
     color: black;
-    margin-bottom: 30px;
+    margin-bottom: 90px;
+    display: grid;
+grid-template-columns: auto auto;
 }
 
 header nav{
@@ -49,7 +54,7 @@ hr{
     padding: 0;
     height: 0;
     margin-right: 0;
-    margin-left: 770px;
+    margin-left: 150px;
 }
 
 .section{
