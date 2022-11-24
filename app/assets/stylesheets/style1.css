@@ -31,6 +31,7 @@ header .options{
     margin-bottom: 30px;
 }
 header nav ul li{
+    text-decoration: none; 
     margin-bottom: 20px;
     display: inline;
     margin-right: 50px;
