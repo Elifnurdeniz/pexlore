@@ -72,11 +72,13 @@ body{justify-content: center;}
     margin-bottom: 70px;
     display: grid;
     grid-template-columns: auto auto;
+    font-size: 13pt;
 }
 .last-contact{
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
     font-weight: bold;
+    font-size: 17pt;
 }
 .parts{
     align-items: center;
